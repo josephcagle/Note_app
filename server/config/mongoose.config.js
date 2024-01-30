@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://127.0.0.1:27017/notes_app_db", {
+mongoose.connect("mongodb://notesapptest-mongo.onrender.com:27017/notes_app_db", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
